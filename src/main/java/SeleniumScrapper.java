@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CeleniumScrapper {
+public class SeleniumScrapper {
 
   public static final String WEB_DRIVER_ID = "webdriver.chrome.driver"; // 드라이버 ID
   public static final String WEB_DRIVER_PATH = "/Users/suhong/Downloads/chromedriver"; // 드라이버 경로
