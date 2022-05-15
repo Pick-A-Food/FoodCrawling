@@ -11,7 +11,7 @@ import java.util.List;
 public class SeleniumScrapper {
   
   public static final String WEB_DRIVER_ID = "webdriver.chrome.driver"; // 드라이버 ID
-  public static final String WEB_DRIVER_PATH = "/Users/eunjin/Downloads/chromedriver"; // 드라이버 경로
+  public static final String WEB_DRIVER_PATH = "/Users/suhong/Downloads/chromedriver"; // 드라이버 경로
   
   public static void main(String[] args)throws Exception {
     System.setProperty(WEB_DRIVER_ID, WEB_DRIVER_PATH);
