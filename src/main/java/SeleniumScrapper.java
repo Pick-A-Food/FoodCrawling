@@ -52,10 +52,10 @@ public class SeleniumScrapper {
         product.setName(productLi.getText());
         String strContainingNum = productLi.findElement(By.tagName("a")).getAttribute("onclick");
         // strContainingNum = "javascript:fnView('./view.do','545')"
-        // javascript:fnView('./view.do','545
-        // 545
         String temp1 = strContainingNum.substring(0, strContainingNum.lastIndexOf("'"));
+        // temp1 = "javascript:fnView('./view.do','545"
         String temp2 = temp1.substring(temp1.lastIndexOf("'") + 1);
+        // temp2 = "545"
         product.setNum(temp2);
         productObjs.add(product);
         System.out.println(product);
